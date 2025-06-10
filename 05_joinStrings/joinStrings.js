@@ -1,5 +1,5 @@
 /*
- First name: Carlos
+First name: Carlos
  Last name: Stevenson
  This year: 1965
  Birth year: 1947
@@ -8,9 +8,13 @@
 */
 
 // Add your code right below, good luck!
-
-
-
+const firstName="Carlos";
+const lastName="Stevenson";
+const thisYear=1965;
+const birthYear=1947;
+const age= thisYear-birthYear;
+const fullName=firstName +" "+ lastName; //concatinate the two names
+const greeting="Hello! My name is " +fullName+  " and I am " +age+ " years old.";
 
 
 // Do not change this
