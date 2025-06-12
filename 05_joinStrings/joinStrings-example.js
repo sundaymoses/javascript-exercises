@@ -4,7 +4,12 @@ const firstName = "Carlos";
 const lastName = "Stevenson";
 
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+// function sayHi(){
+//   alert("Hi!");
 
+// }
+// let NewFunc=sayHi;//copypasting a function to a new variable would work you know
+// NewFunc();
 console.log(greeting);
 
 module.exports = {
