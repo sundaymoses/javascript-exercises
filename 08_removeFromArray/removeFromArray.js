@@ -3,15 +3,19 @@
 
 const removeFromArray = function(array, ...args) {
 //create a new array to store array that does not contain the filtered values
-let arr= [];
+// let arr= [];
 //now fiter out the arrays using the args
-array.forEach((item)=>{
-    //im using ! to say "if it is not in the array, push it to the new array"
+// array.forEach((item)=>{
+//     //im using ! to say "if it is not in the array, push it to the new array"
+//     if(!args.includes(item)){
+//         arr.push(item);
+//     }
+// })
+return array.filter((item)=>{
     if(!args.includes(item)){
-        arr.push(item);
+        return item;
     }
 })
-return arr;
 };
 
 // Do not edit below this line
